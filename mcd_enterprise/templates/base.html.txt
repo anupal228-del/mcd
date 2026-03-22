@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>McDrive Enterprise</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<nav>
+    <h2>McDrive</h2>
+    <div>
+        <a href="/">Home</a>
+        <a href="/login">Login</a>
+        <a href="/logout">Logout</a>
+    </div>
+</nav>
+
+{% block content %}{% endblock %}
+
+</body>
+</html>

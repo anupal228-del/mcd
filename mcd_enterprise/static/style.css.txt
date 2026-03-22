@@ -1,0 +1,58 @@
+body {
+    margin:0;
+    font-family:'Segoe UI';
+    background:#f5f5f5;
+}
+
+nav {
+    background:#DB0007;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:15px 40px;
+}
+
+nav a {
+    color:white;
+    margin-left:20px;
+    text-decoration:none;
+}
+
+.hero {
+    height:80vh;
+    background-size:cover;
+    background-position:center;
+}
+
+.overlay {
+    background:rgba(0,0,0,0.6);
+    color:white;
+    height:100%;
+    padding-top:200px;
+    text-align:center;
+}
+
+.card {
+    width:350px;
+    margin:80px auto;
+    padding:30px;
+    background:white;
+    border-radius:10px;
+}
+
+input, textarea, button {
+    width:100%;
+    margin:10px 0;
+    padding:12px;
+}
+
+button {
+    background:#DB0007;
+    color:white;
+    border:none;
+}
+
+.dashboard {
+    text-align:center;
+    margin-top:100px;
+}

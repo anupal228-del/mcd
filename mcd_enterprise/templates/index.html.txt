@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% for p in pages %}
+<section class="hero" style="background-image:url('/{{p[3]}}')">
+    <div class="overlay">
+        <h1>{{p[1]}}</h1>
+        <p>{{p[2]}}</p>
+    </div>
+</section>
+{% endfor %}
+
+{% if not pages %}
+<div class="empty">
+    <h2>No Content Yet</h2>
+</div>
+{% endif %}
+
+{% endblock %}

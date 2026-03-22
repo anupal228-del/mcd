@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="dashboard">
+<h2>Store Dashboard</h2>
+<p>Manage store offers & drive-thru status</p>
+</div>
+
+{% endblock %}
